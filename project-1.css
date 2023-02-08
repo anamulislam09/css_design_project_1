@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body { font-family: "Work Sans", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Oswald, sans-serif; }
+body { font-family: Raleway, sans-serif; }
+h1, h2, h3, h4, h5, h6, p { font-family: Montserrat, sans-serif; }
+* { margin: 0px; padding: 0px; }
+ul, li, a { text-decoration: none; list-style: none; }
+.container { width: 90%; margin: 0px auto; }
+header.header { width: 100%; display: flex; justify-content: space-around; background-color: rgb(233, 231, 231); box-shadow: rgb(185, 179, 179) 0px 2px 6px; }
+.logo { width: 200px; padding-top: 6px; }
+.logo span { font-size: 17px; font-weight: 400; letter-spacing: 3px; padding: 11px; transition: all 0.3s ease 0s; }
+.logo span code { font-size: 23px; font-weight: 500; }
+.logo span:hover { background-color: rgb(209, 203, 203); cursor: pointer; }
+.menu { width: 600px; text-align: right; }
+ul li { display: inline-block; padding: 10px; }
+ul li a { padding: 10px; color: rgb(51, 51, 51); transition: all 0.3s ease 0s; font-size: 20px; }
+ul li a:hover { background-color: rgb(209, 203, 203); color: rgb(251, 82, 0); }
+.nav { background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("images/architect.jpg"); background-repeat: no-repeat; background-position: center center; background-size: cover; height: 50vh; margin-bottom: 5px; }
+.nav h2 { font-size: 20px; font-weight: 500; position: absolute; top: 30%; left: 50%; transform: translateX(-85px); color: rgb(255, 255, 255); }
+.nav h2 span { font-size: 26px; font-weight: 700; padding: 8px; background-color: rgba(167, 163, 163, 0.66); margin-right: 10px; transition: all 0.3s ease 0s; border-radius: 5px; }
+.nav h2 span:hover { background-color: rgba(116, 114, 114, 0.74); }
+.home { width: 60%; margin: 59px auto; padding: 20px; box-shadow: rgb(197, 192, 192) 1px 1px 6px 0px; }
+.home-img { width: 48%; float: left; margin-right: 2%; overflow: hidden; }
+.home-img img {transition: .3s;}
+
+.home-img img:hover {transform: scale(1.2);opacity: .7;}
+.home-content h2 { padding: 39px 0px; }
+.home-content p {line-height: 40px;margin-bottom: 60px;}
+.home-content a { padding: 15px 40px; border-radius: 5px; background: rgb(51, 51, 51); color: rgb(255, 255, 255); font-size: 18px; word-spacing: 4px; letter-spacing: -1.5px; text-transform: uppercase; margin-bottom: 50px; margin-top: 50px; }
+.home-content {margin-bottom: 20px;}
+.home-content a:hover { background-color: rgb(119, 119, 119); }
+.content h4 { padding: 15px 0px; font-size: 15px; font-weight: 500; color: rgb(51, 51, 51); }
+.content h4 { padding: 15px 0px; font-size: 25px; font-weight: 500; color: rgb(51, 51, 51); }
+.content p { font-size: 16px; line-height: 35px; font-family: Montserrat; word-spacing: 2px; padding: 20px 0px; text-align: justify; font-weight: 400; }
+.personsWrapper { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.personImg { overflow: hidden; }
+.personImg img { width: 100%; transition: all 0.3s ease 0s; }
+.personImg img:hover { transform: scale(1.1); opacity: 0.7; }
+.persons { margin-right: 10px; }
+.personContect h3 { padding: 10px 0px; font-weight: 500; font-size: 22px; }
+.personContect span { font-size: 14px; color: rgb(102, 102, 102); }
+.personContect p { padding: 10px 1px; font-size: 15px; line-height: 30px; font-weight: 500; color: rgb(85, 85, 85); }
+button.btn { width: 100%; padding: 8px 0px; border: none; border-radius: 3px; font-size: 18px; }
+button.btn:hover { background-color: rgb(183, 180, 180); cursor: pointer; }
+.project h4 { padding: 15px 0px; font-size: 25px; font-weight: 500; color: rgb(51, 51, 51); }
+.project h5 { padding: 20px 0px; font-size: 16px; font-weight: 500; color: rgb(68, 68, 68); }
+marquee h5 { display: contents; }
+marquee mark { margin-left: 10px; }
+.project-img { overflow: hidden; column-count: 4; position: relative; margin-bottom: -26px; margin-top: 25px; }
+.images { overflow: hidden; }
+.images img { width: 100%; transition: all 0.3s ease 0s; }
+h4 { padding-bottom: 12px; }
+.images img:hover { opacity: 0.7; transform: scale(1.1); }
+.images p { position: relative; top: -179px; background: rgb(51, 51, 51); width: 100px; padding: 8px; color: rgb(255, 255, 255); font-size: 12px; font-family: cursive; transition: all 0.3s ease 0s; }
+.images p:hover { background-color: rgb(96, 95, 95); cursor: pointer; }
+.contact h4 { padding: 15px 0px; font-size: 25px; font-weight: 500; color: rgb(51, 51, 51); }
+.contact p { font-size: 15px; padding: 28px 0px; color: rgb(153, 153, 153); }
+input[type="text"] { width: 50%; font-size: 17px; margin-bottom: 10px; padding: 10px 5px; border: 1px solid rgb(221, 221, 221); transition: all 0.3s ease 0s; }
+input[type="text"]:hover { background-color: rgb(221, 221, 221); }
+input[type="email"] { width: 50%; font-size: 17px; padding: 10px 5px; margin-bottom: 10px; border: 1px solid rgba(221, 221, 221, 0.867); transition: all 0.3s ease 0s; }
+input[type="email"]:hover { background-color: rgb(221, 221, 221); }
+input[type="button"] { padding: 10px 20px; width: 200px; background: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 17px; transition: all 0.3s ease 0s; border-radius: 5px; margin: 20px 0px; }
+input[type="button"]:hover { background: rgb(68, 68, 68); }
+.map { width: 45%; float: right; position: absolute; top: 119px; right: 0px; }
+.map h3 { font-family: cursive; padding: 20px 0px; color: rgb(85, 85, 85); }
+img {width: 100%;height: auto;transition: all 0.3s ease 0s;}
+section#subscribebox { position: relative; margin-bottom: -90px; }
+.container { width: 1100px; margin: auto; }
+.subboxwrapper { background: rgb(251, 82, 0); overflow: hidden; border-radius: 10px; }
+.subboxsingle { width: 306px; float: left; padding: 20px 0px 0px 20px; }
+.inputboxes input:first-child { padding: 15px; border-bottom-left-radius: 50px; border-top-left-radius: 50px; border: none; font-size: 15px; width: 80%; letter-spacing: 1px; }
+.inputboxes input:last-child { border-radius: 50px; width: 120px; background: rgb(34, 34, 34); color: white; font-weight: 500; font-size: 16px; position: relative; top: -57px; right: -172px; padding: 15px; border: none; letter-spacing: 1px; }
+.inputboxes input:last-child:hover { background-color: rgb(85, 85, 85); }
+.subboxsingle h3 { color: white; font-weight: 500; font-size: 23px; padding-bottom: 20px; }
+.subboxsingle p { color: white; font-size: 15px; line-height: 25px; font-weight: 500; }
+.subboxsingle:last-child { margin-right: 0px; }
+.subboxicon { overflow: hidden; }
+.subboxicon a { margin: 5px; color: white; border: 1px solid white; padding: 7px; border-radius: 100%; width: 25px; height: 25px; place-items: center; display: grid; text-decoration: none; float: left; transition: all 0.3s ease 0s; }
+.subboxicon a:hover { background-color: rgb(255, 255, 255); color: rgb(85, 85, 85); }
+footer#footersection { background: rgb(34, 34, 34); padding-top: 150px; }
+.fboxwrapper { overflow: hidden; }
+.fboxsingle { width: 250px; float: left; margin-right: 30px; margin-bottom: 45px; }
+.fboxsingle:last-child { margin-right: 0px; }
+.fboxsingle h3 { font-size: 22px; color: rgb(239, 239, 239); font-weight: 500; padding-bottom: 25px; }
+.fboxsingle p { color: rgb(153, 153, 153); font-size: 15px; font-weight: 500; padding-bottom: 25px; line-height: 25px; }
+.fboxicon { overflow: hidden; }
+.fboxicon a { text-decoration: none; }
+.fboxicon a i { color: rgb(153, 153, 153); padding: 0px 5px; transition: all 0.3s ease 0s; }
+.fboxicon a i:hover { color: rgb(251, 82, 0); }
+span#contact { display: block; color: rgb(153, 153, 153); font-size: 15px; padding-bottom: 15px; line-height: 25px; }
+span#contact i { color: rgb(251, 82, 0); font-size: 16px; padding-right: 10px; }
+.f-menu { list-style: none; }
+.f-menu li:first-child { padding-top: 0px; }
+.f-menu li { border-bottom: 1px dashed rgb(58, 58, 58); padding-bottom: 10px; padding-top: 10px; display: block; }
+.f-menu li a { text-decoration: none; color: rgb(153, 153, 153); font-size: 15px; transition: all 0.3s ease 0s; }
+.f-menu li a:hover { color: rgb(251, 82, 0); background-color: transparent; }
+.f-menu li a i { font-size: 12px; padding-right: 5px; }
+.f-menu li:last-child { border-bottom: none; }
+.fboxsingle:last-child { margin-right: 0px; }
+.fboxmeta { overflow: hidden; margin-bottom: 25px; }
+.fboxdate { width: 40px; background: rgb(68, 68, 68); padding: 5px; text-align: center; border-radius: 2px; float: left; }
+.fboxdate span { color: white; font-size: 25px; font-weight: 800; }
+.fboxdate span:last-child { font-size: 10px; }
+.fboxtitle { overflow: hidden; padding-left: 20px; }
+.fboxtitle h4 { color: rgb(153, 153, 153); padding-bottom: 10px; transition: all 0.3s ease 0s; }
+.fboxtitle a { color: rgb(153, 153, 153); text-decoration: none; font-size: 12px; }
+.fboxtitle a i { margin: 0px 5px; }
+.copyrightcontainer { border-top: 1px solid rgb(51, 51, 51); }
+.copyrightwrappper { overflow: hidden; }
+.copyrightcontent { width: 550px; color: rgb(153, 153, 153); padding: 40px 0px; font-weight: 500; float: left; }
+.copyrightmenu { width: 550px; float: left; }
+.copyrightmenu ul { list-style: none; overflow: hidden; float: right; }
+.copyrightmenu ul li { float: left; }
+.copyrightmenu ul li a { text-decoration: none; color: rgb(153, 153, 153); padding: 40px 15px; display: block; transition: all 0.3s ease 0s; }
